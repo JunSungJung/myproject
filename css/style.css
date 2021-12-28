@@ -16,29 +16,29 @@
         margin:0 auto; z-index: 3; 
     }
     .logo img { float:left; width:145px; height:20px;  }
-    .nav { float:left; width:500px;  }
-    .nav ul.mainmenu li { 
+    nav { float:left; width:500px;  }
+    nav ul.mainmenu li { 
         position:relative; width:25%; height:50px; text-align:center; line-height:55px; 
     }
-    .nav ul li ul.submenu {
+    nav ul li ul.submenu {
         position:absolute; left:0; top:55px; visibility: hidden;
     }
-    .nav ul li:hover ul.submenu {
+    nav ul li:hover ul.submenu {
         visibility: visible;
     }
-    .nav ul li ul.submenu li { width:100%; transition:0.4s; border-bottom:1px solid #323232; background:#191919; opacity:0; }
-    .nav ul li:hover ul.submenu li:nth-child(1){
+    nav ul li ul.submenu li { width:100%; transition:0.4s; border-bottom:1px solid #323232; background:#191919; opacity:0; }
+    nav ul li:hover ul.submenu li:nth-child(1){
         animation:anima 0.3s ease-in;
     }
-    .nav ul li:hover ul.submenu li:nth-child(2){
+    nav ul li:hover ul.submenu li:nth-child(2){
         animation:anima 0.3s ease-in 0.2s ;
     }
-    .nav ul li:hover ul.submenu li:nth-child(3){
+    nav ul li:hover ul.submenu li:nth-child(3){
         animation:anima 0.3s ease-in 0.4s ;
     }
-    .nav ul li ul.submenu li:hover { background:#3dbe89;  }
+    nav ul li ul.submenu li:hover { background:#3dbe89;  }
 
-    .nav ul li:hover ul.submenu li {
+    nav ul li:hover ul.submenu li {
         opacity:1;
         transform:translateY(0) scale(1.1);
     }
@@ -55,7 +55,7 @@
         }
     }
 
-    .nav ul li a { color:#fff; }
+    nav ul li a { color:#fff; }
     .topmenu a { 
         float:left; margin-left:3px; padding:5px 10px;
         font-size:12px; color:#c6c6c6;
@@ -140,7 +140,7 @@
         text-align: center; 
     }
     .officialtxt h3 { font-size:33px; font-weight: 600; color:#fff; }
-    .officialtxt p { margin-top:12px; font-size:19px; color:#fff; }
+    .officialtxt p { margin-top:12px; font-size:17px; color:#fff; }
     .officialtxt a { 
         width:120px; height:40px; margin:38px auto 0;  font-weight: bold;
         line-height: 2.6;  border:1px solid #bae7fc; border-radius:50px;  color:#fff; transition:all 0.4s ease-in;
@@ -148,28 +148,28 @@
     .officialtxt a:hover { background:#fff; color:#449ece;  }
 
     /*///// AI Products /////*/
-    .products { width:80%; height:750px; margin:60px auto; text-align: center; }
+    .products { width:60%; height:750px; margin:60px auto; text-align: center; }
     .products h2 { font-size:33px; font-weight:600; color:#313131;  }
     .products p { margin:15px 0 60px 0; font-size:19px; }
     .productcontain { 
         display:flex; justify-content: space-between; align-items: center; 
-        width:80%; margin:0 auto;
+        width:100%; 
     }
     .productscon { 
         position: relative;
-        width:368px; height:600px; margin-right:10px; 
+        width:33%; height:600px; margin-right:10px; 
         border:1px solid #ddd; 
     }
     .productscon:nth-child(3) {  margin:0; }
     .productscon .imgcut { height:220px;  margin-bottom:2em; }
-    .productscon .imgcut img { width:368px;  height:220px; }
+    .productscon .imgcut img { width:100%;  height:220px; }
     .productscon .producttxt {  padding:30px 25px; text-align:left; }
     .productscon .producttxt h3 { font-size:18px; font-weight:bold; letter-spacing:-0.5px; color:#222; }
     .productscon .producttxt p { 
         width:100%; font-size: 16.5px; margin-top: 10px; 
         letter-spacing: -0.5px;color: #5c5c5c; 
     }
-    .productscon .producttxt2 { position: absolute; left:30px; bottom:-30px;  }
+    .productscon .producttxt2 { position: absolute; left:30px; bottom:-50px;  }
     .productscon .producttxt2 P:nth-child(1) { color:#108174; }
     .productscon .producttxt2 P:nth-child(2) { margin-top:-80px; font-size:60px; font-weight: 700; color:#585858; }
     .productscon .producttxt2 .underbar { 
@@ -209,7 +209,7 @@
         text-align: center; 
     }
     .navertxt h3 { font-size:33px; font-weight: 600; color:#fff; }
-    .navertxt p { margin-top:12px; font-size:19px; color:#fff; }
+    .navertxt p { margin-top:12px; font-size:17px; color:#fff; }
     .navertxt a { 
         width:120px; height:40px; margin:38px auto 0;  font-weight: bold;
         line-height: 2.6;  border:1px solid #bae7fc; border-radius:50px;  color:#fff; transition:all 0.4s ease-in;
